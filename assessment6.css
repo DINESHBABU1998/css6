@@ -1,0 +1,128 @@
+body {
+  background-image: url(./shara\ desert.jpg);
+  background-size: cover;
+}
+.nav {
+  float: right;
+  margin-top: 3vh;
+}
+a {
+  color: white;
+  padding: 20px;
+}
+.menu {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(207, 204, 207);
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.sahara {
+  width: 40em;
+  height: 20em;
+  position: absolute;
+  top: 10em;
+  left: 5em;
+  float: left;
+}
+.heading1 {
+  color: white;
+  font-size: 7em;
+}
+p {
+  color: white;
+}
+button {
+  background-color: white;
+  width: 12em;
+  border-radius: 18px;
+  padding: 10px;
+  border: none;
+}
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  float: right;
+  clear: right;
+  margin: 50px 120px;
+}
+.box1 {
+  height: 220px;
+  width: 180px;
+  background-image: url(./pic-1.jpg);
+  background-size: cover;
+  border-radius: 15px;
+}
+.b {
+  transition-duration: 1s;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.box1:hover {
+  transform: translateY(-10px);
+}
+h4 {
+  color: rgb(190, 28, 28);
+}
+.data {
+  color: white;
+  line-height: 20px;
+}
+.box2 {
+  height: 220px;
+  width: 180px;
+  background-image: url(./pic-2.png);
+  background-size: cover;
+  border-radius: 15px;
+}
+.box2:hover {
+  transform: translateY(-10px);
+}
+.box3 {
+  height: 220px;
+  width: 180px;
+  background-image: url(./pic-3.png);
+  background-size: cover;
+  border-radius: 15px;
+}
+.box3:hover {
+  transform: translateY(-10px);
+}
+.box4 {
+  height: 220px;
+  width: 180px;
+  background-image: url(./pic-4.png);
+  background-size: cover;
+  border-radius: 15px;
+}
+.box4:hover {
+  transform: translateY(-10px);
+}
+@media only screen and (min-width: 400px) and (max-width: 800px){
+.box-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 20px;
+    position: absolute;
+    top: 23em;
+    left: -3.5em;
+    right: 1em;
+    text-align: center;
+    margin: 50px 120px;
+}
+}
+@media only screen and (min-width: 400px) and (max-width: 800px){
+.box1 {
+    background-image: url(./pic-1.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.b {
+    width: 500px;
+    background-repeat: round;
+}
+}
+
